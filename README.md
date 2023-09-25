@@ -11,7 +11,7 @@ This web app is a clone of the site [YouTube](https://www.youtube.com "YouTube H
 __Github-Link :__ https://github.com/soham023/youtube-clone
 __Deployed-Link :__ https://ssd-new-youtube.netlify.app/
 
-![React Youtube Clone]()
+![React Youtube Clone](https://ibb.co/0ySP74K)
 
 ## API Reference:
 
