@@ -1,70 +1,60 @@
-# Getting Started with Create React App
+# YouTube Clone 2.0
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+#### A direct clone of the popular video hosting and viewing site, YouTube.
 
-## Available Scripts
+#### by Soham Sadhukhan
 
-In the project directory, you can run:
+## Description
 
-### `npm start`
+This web app is a clone of the site [YouTube](https://www.youtube.com "YouTube Homepage") and is made with React, Material and the YouTube v3 API. On here, you are able to search for videos, watch videos and see the comments for the videos. The goal of this project was to clone YouTube as closely and as accurately as possible to showcase my ability to take a wireframe or template and translate that into a functioning and visually identical web app.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+__Github-Link :__ https://github.com/soham023/youtube-clone
+__Deployed-Link :__ https://ssd-new-youtube.netlify.app/
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+![React Youtube Clone]()
 
-### `npm test`
+## API Reference:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. __Youtube v3__ - API for fetching Youtube videos , its thumbnails and many more
+```http
+  rapidapi.com/ytdlfree/api/youtube-v31
+```
+## Installation
+Then, clone the repo from github to your machine
 
-### `npm run build`
+```
+git clone https://github.com/kevinahn7/youtube-clone.git
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Then, navigate into the directory
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```
+cd youtube-clone/
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+This program is dependent that you already have node installed on your machine and node package manager. Afterwards run the install command.
 
-### `npm run eject`
+```
+npm install
+```
+To run the application, run the start command from the root directory.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```
+npm start
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Support and Contact Details
+Any issues or questions please feel free to [email me](mailto:soham.sadhukhan67@gmail.com)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+**Contribution Requirements**
+1. Clone the repo
+2. Make a new branch
+3. Commit and push your changes
+4. Create a PR
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Technologies Used
+* ReactJS
+* Material UI
+* React Router
+* CSS
+* Data Fetching
