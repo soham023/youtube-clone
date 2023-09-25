@@ -23,7 +23,7 @@ __Deployed-Link :__ https://ssd-new-youtube.netlify.app/
 Then, clone the repo from github to your machine
 
 ```
-git clone https://github.com/kevinahn7/youtube-clone.git
+git clone https://github.com/soham023/youtube-clone.git
 ```
 
 Then, navigate into the directory
